@@ -11,7 +11,8 @@
   <ItemGroup>
     <Folder Include="Daten\" />
     <Folder Include="Modelle\" />
-    <Folder Include="Dokumentation\" />
+    <Folder Include="Praesentation\" />
+    <Folder Include="UML\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
