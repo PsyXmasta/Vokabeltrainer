@@ -10,8 +10,8 @@
 
   <ItemGroup>
     <Folder Include="Daten\" />
-    <Folder Include="Modelle\" />
     <Folder Include="Dokumentation\Praesentation\" />
+    <Folder Include="Modelle\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
