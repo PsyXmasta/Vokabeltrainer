@@ -13,4 +13,8 @@
 
 ## Tag 2
 
-(wird ergänzt)
+- Klassendesign erstellt
+- Attribute der Klassen definiert
+- Methoden der Klassen definiert
+- Fensterdesign geplant
+- Vorbereitung der Implementierung abgeschlossen
