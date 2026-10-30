@@ -18,3 +18,11 @@
 - Methoden der Klassen definiert
 - Fensterdesign geplant
 - Vorbereitung der Implementierung abgeschlossen
+
+## Tag 3
+
+- Technisches Design erstellt
+- Datenmodell definiert
+- Datenfluss dokumentiert
+- Fehlerbehandlung geplant
+- Technische Komponenten festgelegt
