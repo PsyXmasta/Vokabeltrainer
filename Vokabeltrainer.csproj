@@ -11,8 +11,6 @@
   <ItemGroup>
     <Folder Include="Daten\" />
     <Folder Include="Dokumentation\Praesentation\" />
-    <Folder Include="Modelle\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

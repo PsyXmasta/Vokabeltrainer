@@ -26,3 +26,10 @@
 - Datenfluss dokumentiert
 - Fehlerbehandlung geplant
 - Technische Komponenten festgelegt
+
+## Tag 4
+
+- Grundklassen erstellt
+- Projektstruktur erweitert
+- Datenmodell implementiert
+- Vorbereitung der Geschäftslogik abgeschlossen
