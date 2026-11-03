@@ -33,3 +33,11 @@
 - Projektstruktur erweitert
 - Datenmodell implementiert
 - Vorbereitung der Geschäftslogik abgeschlossen
+
+## Tag 5
+
+- Methoden für die Vokabelverwaltung implementiert
+- Hinzufügen-Funktion umgesetzt
+- Löschen-Funktion umgesetzt
+- Bearbeiten-Funktion umgesetzt
+- Trainingslogik vorbereitet
