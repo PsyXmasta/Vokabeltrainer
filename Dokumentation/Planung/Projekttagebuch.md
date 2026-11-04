@@ -41,3 +41,13 @@
 - Löschen-Funktion umgesetzt
 - Bearbeiten-Funktion umgesetzt
 - Trainingslogik vorbereitet
+
+## Tag 6
+
+- DatenService vollständig implementiert
+- JSON-Speicherung umgesetzt
+- JSON-Laden umgesetzt
+- Benutzeroberfläche erstellt
+- DataGrid integriert
+- Funktion zum Hinzufügen von Vokabeln implementiert
+- Speicherung der Vokabeln erfolgreich getestet
