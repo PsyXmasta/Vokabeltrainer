@@ -17,6 +17,7 @@ namespace Vokabeltrainer
     {
         private VokabelVerwaltung verwaltung;
         private DatenService datenService;
+        private Vokabel bearbeiteteVokabel;
 
         public MainWindow()
         {
@@ -24,6 +25,8 @@ namespace Vokabeltrainer
 
             verwaltung = new VokabelVerwaltung();
             datenService = new DatenService();
+
+            verwaltung.VokabelListe = datenService.Laden();
 
             Aktualisieren();
         }
@@ -60,6 +63,67 @@ namespace Vokabeltrainer
             Aktualisieren();
 
             MessageBox.Show("Vokabeln wurden geladen.");
+        }
+
+        private void BtnLoeschen_Click(object sender, RoutedEventArgs e)
+        {
+            Vokabel ausgewaehlteVokabel =
+                dgVokabeln.SelectedItem as Vokabel;
+
+            if (ausgewaehlteVokabel != null)
+            {
+                verwaltung.Loeschen(ausgewaehlteVokabel);
+
+                Aktualisieren();
+            }
+        }
+
+        private void BtnBearbeiten_Click(object sender, RoutedEventArgs e)
+        {
+            if (bearbeiteteVokabel == null)
+            {
+                bearbeiteteVokabel = dgVokabeln.SelectedItem as Vokabel;
+
+                if (bearbeiteteVokabel != null)
+                {
+                    txtDeutsch.Text = bearbeiteteVokabel.Deutsch;
+                    txtEnglisch.Text = bearbeiteteVokabel.Englisch;
+                    txtKategorie.Text = bearbeiteteVokabel.Kategorie;
+
+                    MessageBox.Show("Vokabel bearbeiten und erneut auf Bearbeiten klicken.");
+                }
+            }
+            else
+            {
+                Vokabel neueVokabel = new Vokabel
+                {
+                    Deutsch = txtDeutsch.Text,
+                    Englisch = txtEnglisch.Text,
+                    Kategorie = txtKategorie.Text
+                };
+
+                verwaltung.Bearbeiten(
+                    bearbeiteteVokabel,
+                    neueVokabel);
+
+                bearbeiteteVokabel = null;
+
+                Aktualisieren();
+
+                txtDeutsch.Clear();
+                txtEnglisch.Clear();
+                txtKategorie.Clear();
+
+                MessageBox.Show("Vokabel aktualisiert.");
+            }
+        }
+
+        private void BtnTraining_Click(object sender, RoutedEventArgs e)
+        {
+            TrainingsWindow trainingWindow =
+                new TrainingsWindow(verwaltung.VokabelListe);
+
+            trainingWindow.ShowDialog();
         }
 
         private void Aktualisieren()

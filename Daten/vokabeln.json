@@ -1,7 +1,122 @@
 [
   {
+    "Deutsch": "Baum",
+    "Englisch": "Tree",
+    "Kategorie": "Natur"
+  },
+  {
     "Deutsch": "Haus",
     "Englisch": "House",
+    "Kategorie": "Alltag"
+  },
+  {
+    "Deutsch": "Auto",
+    "Englisch": "Car",
+    "Kategorie": "Verkehr"
+  },
+  {
+    "Deutsch": "Hund",
+    "Englisch": "Dog",
+    "Kategorie": "Tiere"
+  },
+  {
+    "Deutsch": "Katze",
+    "Englisch": "Cat",
+    "Kategorie": "Tiere"
+  },
+  {
+    "Deutsch": "Maus",
+    "Englisch": "Mouse",
+    "Kategorie": "Tiere"
+  },
+  {
+    "Deutsch": "Pferd",
+    "Englisch": "Horse",
+    "Kategorie": "Tiere"
+  },
+  {
+    "Deutsch": "Vogel",
+    "Englisch": "Bird",
+    "Kategorie": "Tiere"
+  },
+  {
+    "Deutsch": "Fisch",
+    "Englisch": "Fish",
+    "Kategorie": "Tiere"
+  },
+  {
+    "Deutsch": "Apfel",
+    "Englisch": "Apple",
+    "Kategorie": "Obst"
+  },
+  {
+    "Deutsch": "Banane",
+    "Englisch": "Banana",
+    "Kategorie": "Obst"
+  },
+  {
+    "Deutsch": "Orange",
+    "Englisch": "Orange",
+    "Kategorie": "Obst"
+  },
+  {
+    "Deutsch": "Erdbeere",
+    "Englisch": "Strawberry",
+    "Kategorie": "Obst"
+  },
+  {
+    "Deutsch": "Fahrrad",
+    "Englisch": "Bicycle",
+    "Kategorie": "Verkehr"
+  },
+  {
+    "Deutsch": "Bus",
+    "Englisch": "Bus",
+    "Kategorie": "Verkehr"
+  },
+  {
+    "Deutsch": "Zug",
+    "Englisch": "Train",
+    "Kategorie": "Verkehr"
+  },
+  {
+    "Deutsch": "Flugzeug",
+    "Englisch": "Airplane",
+    "Kategorie": "Verkehr"
+  },
+  {
+    "Deutsch": "Buch",
+    "Englisch": "Book",
+    "Kategorie": "Schule"
+  },
+  {
+    "Deutsch": "Stift",
+    "Englisch": "Pen",
+    "Kategorie": "Schule"
+  },
+  {
+    "Deutsch": "Tafel",
+    "Englisch": "Board",
+    "Kategorie": "Schule"
+  },
+  {
+    "Deutsch": "Lehrer",
+    "Englisch": "Teacher",
+    "Kategorie": "Schule"
+  },
+  {
+    "Deutsch": "Sch\u00FCler",
+    "Englisch": "Student",
+    "Kategorie": "Schule"
+  },
+  {
+    "Deutsch": "T\u00FCr",
+    "Englisch": "Door",
+    "Kategorie": "Alltag"
+  },
+  {
+    "Deutsch": "Fenster",
+    "Englisch": "Window",
     "Kategorie": "Alltag"
   }
 ]

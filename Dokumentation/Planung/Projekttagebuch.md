@@ -51,3 +51,12 @@
 - DataGrid integriert
 - Funktion zum Hinzufügen von Vokabeln implementiert
 - Speicherung der Vokabeln erfolgreich getestet
+
+## Tag 7
+
+- Trainingsfenster erstellt
+- Trainingsfunktion implementiert
+- Überprüfung von Antworten umgesetzt
+- Punktesystem integriert
+- Anwendung erfolgreich getestet
+- Vorbereitung der Präsentation begonnen
