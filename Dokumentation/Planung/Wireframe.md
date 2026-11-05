@@ -40,5 +40,5 @@ Der ursprüngliche Entwurf konnte erfolgreich umgesetzt werden. Die Anwendung er
 ### Screenshot der fertigen Anwendung
 
 ![Wireframe](Wireframe.png)
-
+![Hauptfenster](Screenshot_MainWindow.png)
 ![Trainingsfenster](Screenshot_Training.png)
